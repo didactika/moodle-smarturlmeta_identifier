@@ -26,11 +26,20 @@ use mod_smarturl\local\metadata\field_type as field_type_contract;
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 final class field_type implements field_type_contract {
-    /** @return string Stable type identifier. */
+    /**
+     * Identifies the ISBN field type.
+     *
+     * @return string Stable type key.
+     */
     public function key(): string {
         return 'ISBN';
     }
-    /** @return string Localised label. */
+
+    /**
+     * Returns the label shown to editors.
+     *
+     * @return string Localised label.
+     */
     public function label(): string {
         return get_string('isbn', 'smarturlmeta_identifier');
     }
