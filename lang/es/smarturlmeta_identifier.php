@@ -21,7 +21,8 @@
  * @copyright  2026 Didactika.org
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
+
+$string['invalidisbn'] = 'Introduce un ISBN-10 o ISBN-13 válido.';
+$string['isbn'] = 'ISBN';
 $string['pluginname'] = 'Identificadores bibliográficos para Enlace avanzado';
 $string['privacy:metadata'] = 'Esta extensión no almacena datos personales.';
-$string['isbn'] = 'ISBN';
-$string['invalidisbn'] = 'Introduce un ISBN-10 o ISBN-13 válido.';
